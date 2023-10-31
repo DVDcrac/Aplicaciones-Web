@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 5</title>
+    <style>
+        table {
+            border-style: solid;
+        }
+
+        th,
+        td {
+            background-color: white;
+        }
+
+        th,
+        td {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <p>Preferencias</p>
+            <tr><td><select name="speed" size="2">
+                <option value="100_mbits">100 Mbits</option>
+                <option value="1000_mbits">1000 Mbits</option>
+                </td>
+            </tr>
+            <tr>
+                <td>DNI:<input type="text" name="ID"> </td>
+            </tr>
+            <tr>
+                <td>Name:<input type="text" name="name"> </td>
+            </tr>
+            <tr>
+                <td>Surname:<input type="text" name="surname"> </td>
+            </tr>
+            <tr>
+                <td>Email:<input type="text" name="email"> </td>
+            </tr>
+            <tr>
+                <td>2G<input type="radio" name="red" value="red2g"></td>
+            </tr>
+            <tr>
+                <td>3G<input type="radio" name="red" value="red3g"></td>
+            </tr>
+            <tr>
+                <td>4G<input type="radio" name="red" value="red4g"></td>
+            </tr>
+            <tr>
+                <td><input type="time"></td>
+            </tr>
+            <tr>
+                <td>AMD<input type="checkbox" name="processor" value="procesadoramd"></td>
+            </tr>
+            <tr><td>Intel i5<input type="checkbox" name="processor" value="procesadorintel_i5"></td></tr>
+            <tr><td>Intel i7<input type="checkbox" name="processor" value="procesadorintel_i6"></td></tr>
+            <tr>
+                <td><textarea placeholder="Please write here"cols="49" rows="6" style="resize: both;"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="color" name="favcolor" value="#0000"></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

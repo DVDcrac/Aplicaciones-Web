@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 4</title>
+    <style>
+        table {
+            border-style: solid;
+        }
+
+        th,
+        td {
+            background-color: white;
+        }
+
+        th,
+        td {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <table>
+        <legend>Indique sus preferencias por favor</legend>
+        <tr><td>Elija una fecha: <input type="text" placeholder="dd/mm/aaa"></td></tr>
+        <tr><td>Elija un fichero:<button type="button">Examinar</button> No se ha seleccionado ninguno</td></tr>
+       <tr>
+        <td><input type="radio" id="1">
+            <label for="1">AMD</label><br></td>
+        <td><input type="radio" id="2">
+            <label for="2">Intel i5</label><br></td>
+        <td><input type="radio" id="3">
+            <label for="3">Intel i7</label><br></td>
+        </tr>
+    </table>
+    <table>
+        <legend>Indique sus preferencias por favor</legend>
+        <tr>
+            <td><input type="radio" id="1">
+                <label for="1">Matematicas</label><br></td>
+            <td><input type="radio" id="2">
+                <label for="2">Historia</label><br></td>
+            <td><input type="radio" id="3">
+                <label for="3">Geografia</label><br></td>
+            <td><input type="radio" id="4">
+                <label for="3">Lengua</label><br></td>
+        </tr>
+        <tr>
+            <td>Nombre<input type="text"></td>
+        </tr>
+        <tr>
+            <td>Apellidos<input type="text"></td>
+        </tr>
+        <tr>
+            <td>Direccion<input type="text"></td>
+        </tr>
+        <tr>
+            <td>Elija un color: <input type="color" name="favcolor" value="#0000"></td>
+        </tr>
+        <tr>
+            <td><textarea placeholder="Utilice este cuadro para escribir: "cols="59" rows="6" style="resize: both;"></textarea></td>
+        </tr>
+        <tr>
+            <td>Elija una fecha: <input type="text" placeholder="dd/mm/aaa"></td>
+        </tr>
+        <tr>
+            <td><select name="elemento">
+                <option value="English">Ingles</option>
+                <option value="German">German</option>
+                <option value="French">Frances</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Elija una hora: <input type="time"></td>
+        </tr>
+        <tr>
+            <td>Elija un fichero:<button type="button">Examinar</button> No se ha seleccionado ninguno</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="1">
+                <label for="1" value="Femenine">Mujer</label>
+                <input type="checkbox" id="2">
+                <label for="2" value="Masculine">Hombre</label></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

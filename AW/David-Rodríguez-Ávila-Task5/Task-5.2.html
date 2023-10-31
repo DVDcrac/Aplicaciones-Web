@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: transparent;
+        }
+
+        th,
+        td {
+            text-align: left;
+        }
+        legend{
+            border-style: solid;
+        }
+        legend{
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>HOJA DE INSCRIPCIÓN</h1></center><BR>
+    <center><h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1></center>
+<form>
+    <table style="background-color: #BBBBBB;">
+    <legend>Datos Personales</legend>
+    <tr>
+        <td>Nombre:</td>
+        <td>Apellidos: </td>
+        <td>DNI: </td>
+        
+    </tr>
+    <tr>
+        <td><input type="text"> </td>
+        <td><input type="text"> </td>
+        <td><input type="text"> </td>
+        
+    </tr>
+    <tr>
+        <td>Localidad de Nacimiento </td>
+        <td>Provincia</td>
+        <td>Fecha de Nacimiento</td>
+    </tr>
+    <tr>
+        <td><input type="text"> </td>
+        <td><select name="provincia">
+            <option value="1">Almeria</option>
+            <option value="2">Granada</option>
+            <option value="3">Malaga</option>
+            <option value="4">Jaen</option>
+            <option value="5">Cordoba</option>
+            <option value="6">Sevilla</option>
+            <option value="7">Cadiz</option>
+            <option value="8">Huelva</option>
+            <option value="9" disabled>Ninguna</option>
+        </select></td>
+        <td><input type="text" placeholder="dd/mm/aaa"></td>
+        <td>Indica las ganas del nuevo curso:</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="2">Direccion</td> 
+        <td>Codigo Postal:</td>
+        <td><input type="range"></td>
+    </tr>
+    <tr>
+        <td><input type="text"></td>
+        <td><input type="text" name="name2" value="Ej: C/ Sevilla B/ 2 3ºC " readonly></td>
+        <td><input type="text"></td>
+    </tr>
+</table>
+<table style="background-color: #F1C29C;" text-align="left">
+    <legend>Forma de Acceso</legend>
+    <tr>
+        <td><input type="radio" id="1"><label for="1">Cupo 1 (Bachillerato)</label></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="2"><label for="2">Bachillerato relacionado</label></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="3"><label for="3">Bachillerato no relacionado</label></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="4"><label for="4">Otros (especifique)<input type="text"></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td><input type="radio" id="5"><label for="5">Cupo 2 (Tecnico)</label></td>
+    </tr>
+    <tr>
+        <td><input type="radio" id="6"><label for="6">Cupo 2 (Prueba de acceso)</label></td>
+    </tr>
+</table>
+<table style="background-color: #B67E7E;">
+    <legend>Documentos Adjuntados</legend>
+    <tr>
+        <td><input type="checkbox" id="1"><label for="1">Fotocopia DNI</label></td>
+        <td></td>
+        <td><input type="checkbox" id="2"><label for="2">Certificado Academico</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="3"><input type="checkbox" id="3"><label for="3">Otros (especifique)<input type="text"></label></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button type="button">Examminar</button>No se ha seleccionado ningun archivo</td>
+    </tr>
+</table>
+<button type="button">Enviar solicitud</button>
+<button type="button">Borrar</button>
+</form>
+</body>
+</html>

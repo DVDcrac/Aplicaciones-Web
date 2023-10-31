@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones</title>
+</head>
+<body>
+    <script>
+        
+        var nombre= prompt("Introduce tu nombre y apellidos:");
+        document.write("Nombre y apellidos del usuario: " + nombre);
+
+        var numero1=prompt("Introduce el primer número para las operaciones:"), numero2=prompt("Introduce el segundo número para las operaciones:"), multiplicaion;
+        multiplicaion=parseInt(numero1)*parseInt(numero2);
+        document.write("El resultado de la multiplicacion es: ",multiplicaion);
+       
+        document.write("<br>");
+        
+        
+        var resta=parseInt(numero1)-parseInt(numero2);
+        document.write("El resultado de la resta es: ",resta);
+        
+        document.write("<br>");
+
+        
+        var suma=parseInt(numero1)+parseInt(numero2);
+        document.write("El resultado de la suma es: ",suma);
+
+        document.write("<br>");
+
+        var division=parseInt(numero1)/parseInt(numero2);
+        document.write("El resultado de la division es: ",division);
+
+        document.write("<br>");
+
+        
+        var modulo=parseInt(numero1)%parseInt(numero2);
+        document.write("El resultado del modulo es: ",modulo);
+
+        document.write("<br>");
+
+        var precio=prompt("Indica el precio del producto:"), cant=prompt("Indica la cantidad que se lleva:"), abonar=precio*cant;
+        document.write("Debes abonar: ",abonar,"€")
+    </script>
+</body>
+</html>
