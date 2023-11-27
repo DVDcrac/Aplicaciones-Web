@@ -28,6 +28,10 @@ nav ul li:hover {
     background: #eca023;
 }
 
+nav ul:hover {
+    display: block;
+}
+
 form{
     background: #dfdcdc;
 }
