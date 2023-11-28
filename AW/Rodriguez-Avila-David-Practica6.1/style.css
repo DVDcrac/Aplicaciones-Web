@@ -33,7 +33,7 @@ nav ul:hover {
 }
 
 form{
-    background: #dfdcdc;
+    margin-left: 120px;
 }
 
 p{
@@ -95,4 +95,11 @@ thead{
 #cinco{
     background-color: #A1D9E8;
     height: 60px;
+}
+
+#subir{
+    float: right;
+}
+#escribenos{
+    background: #dfdcdc;
 }
