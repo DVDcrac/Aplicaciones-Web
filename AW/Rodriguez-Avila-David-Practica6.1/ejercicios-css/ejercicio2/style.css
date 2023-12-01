@@ -1,0 +1,21 @@
+body{
+    background-color: lightgreen;
+}
+text{
+    color: gray;
+}
+#a{
+    color: red;
+}
+#b{
+    size: 14px;
+    color: black;
+}
+#c{
+    size: 14px;
+    color: black;
+}
+#d{
+    size: 14px;
+    color: black;
+}

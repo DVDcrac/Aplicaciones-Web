@@ -1,0 +1,18 @@
+#all{
+    color: gray;
+}
+body{
+    background-color: lightblue;
+}
+span{
+    font-weight: bold;
+}
+#b{
+    color: green;
+    font-size: 10px;
+    font-style: italic;
+}
+#d{
+    color: blue;
+    font-size: 16px;
+}

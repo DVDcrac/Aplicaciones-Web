@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+}
+#a{
+   color: red; 
+}
+#b{
+    size: 14px;
+    color: black;
+}
+#c{
+    color: darkgreen;
+    font-style: italic;
+}
+text{
+    color: white;
+}
