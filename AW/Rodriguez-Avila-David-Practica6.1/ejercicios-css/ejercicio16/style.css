@@ -1,0 +1,14 @@
+#uno{
+    float: right;
+}
+#dos{
+    float: left;
+}
+h1{
+    text-align: center;
+}
+#listo{
+    border-style: solid;
+    border-color: black;
+
+}

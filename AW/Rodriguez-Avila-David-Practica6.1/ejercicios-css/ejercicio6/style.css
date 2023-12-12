@@ -1,0 +1,29 @@
+h1{
+    color: red;
+}
+h2{
+    color: red;
+}
+#definicion{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: fuente1;
+}
+#parrafo_especial{
+    color: green;
+    font-size: 30px;
+    font-style: italic;
+    font-family: fuente2;
+}
+body{
+    background-color: lightblue;
+}
+@font-face {
+    font-family: fuente1 ;
+    src: url(fonts/SEASRN__.ttf);
+}
+@font-face {
+    font-family: fuente2 ;
+    src: url(fonts/OstrichSans-Medium.otf);
+}
