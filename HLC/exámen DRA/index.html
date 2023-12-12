@@ -8,36 +8,48 @@
 <body>
     <script>
         var smi= parseInt("1000")
+       
         var nombre = prompt("Introduce tu nombre:");
+       
         var apellidos = prompt("Introduce tus apellidos");
+       
+        var sueldo = prompt("Introduce tu sueldo:");
+       
+        var años = prompt("Introduce tus años de antigüedad:");
+        
+        var a1 = parseInt(sueldo*0.2);
+       
+        var a2=parseInt(a1)+parseInt(sueldo);
+        
+        var b1 = parseInt(sueldo*0.1);
+       
+        var b2=parseInt(b1)+parseInt(sueldo);
+       
+        var c1 = parseInt(sueldo*0.02);
+        
+        var c2=parseInt(c1)+parseInt(sueldo);
+       
         document.write("-Empleado: "+ nombre + apellidos);
         document.write("<br>")
-        var sueldo = prompt("Introduce tu sueldo:");
         document.write("-Sueldo actual:"+ sueldo +"€" );
-        var años = prompt("Introduce tus años de antigüedad:");
         document.write("<br>")
         document.write("-Años de antigüedad:"+ años);
         document.write("<br>");
+        
 
-        if (sueldo < smi && años >= 10){
-            var a1 = parseInt(sueldo*0.2);
-            var a2=parseInt(a1)+parseInt(sueldo);
+        if (sueldo < smi && años >= 10){ 
             document.write("-Le corresponde un aumento del 20%.");
             document.write("<br>");
             document.write("-Nuevo sueldo:" + a2 +"€" );
         }
         else{
             if(sueldo<smi && años<5){
-                var b1 = parseInt(sueldo*0.1);
-                var b2=parseInt(b1)+parseInt(sueldo);
                 document.write("-Le corresponde un aumento del 10%.");
                 document.write("<br>");
                 document.write("-Nuevo sueldo:" + b2 +"€" );
             }
             else{
                 if(sueldo<=smi+smi || años > 12 && años < 15){
-                    var c1 = parseInt(sueldo*0.02);
-                    var c2=parseInt(c1)+parseInt(sueldo);
                     document.write("-Le corresponde un aumento del 2%.");
                     document.write("<br>");
                     document.write("-Nuevo sueldo:" + c2 +"€" );
