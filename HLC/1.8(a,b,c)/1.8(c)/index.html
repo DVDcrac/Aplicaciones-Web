@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var marca = prompt("Introduce la marca del coche deseado:")
+        var modelo = prompt("Introduce el modelo del coche deseado:")
+
+        if(marca=="Ford" && modelo=="Fiesta"){
+            document.write("El descuento total para el " + marca ," ", modelo ," es de 9%.")
+        }else{
+            if(marca=="Ford"&& modelo!="Fiesta"){
+                document.write("El descuento total para el " + marca ," ", modelo ," es de 5%.")
+            }else{
+                if(marca=="Seat" && modelo=="Leon"){
+                    document.write("El descuento total para el " + marca ," ", modelo ," es de 11%.")
+                }else{
+                    if(marca=="Seat" && modelo!="Leon"){
+                    document.write("El descuento total para el " + marca ," ", modelo ," es de 8%.")
+                    }else{
+                        document.write("El descuento total para el " + marca ," ", modelo ," es de 0%.")
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

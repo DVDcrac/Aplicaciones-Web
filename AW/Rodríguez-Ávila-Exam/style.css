@@ -1,0 +1,202 @@
+body{
+    background-color: yellow;
+}
+@font-face {
+    font-family: fuente1 ;
+    src: url(recursos/fonts/JetBrainsMono-Regular.ttf);
+}
+@font-face {
+    font-family: fuente2 ;
+    src: url(recursos/fonts/RobotoCondensed-Regular.ttf);
+}
+h1{
+    font-family: fuente1;
+
+}
+h2{
+    font-family: fuente1;
+
+}
+h3{
+    font-family: fuente1;
+
+}
+p{
+    font-family: fuente2;
+    font-size: 15px;
+}
+header{
+    text-align: center;
+    
+}
+#comprar{
+    
+    color: white;
+    background-color: red;
+}
+#comprar:hover{
+    background-color: black;
+    color: white;
+}
+#lista{
+
+    background-color: red;
+    max-width: 150px;
+    color: white;
+}
+#lateral{
+    float: right;
+    border: solid;
+}
+#argumento{
+    float: left;
+    
+}
+#entorno{
+    float: left;
+}
+#clases{
+    float: left;
+   
+}
+#cap li{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: static;
+    z-index: 100;
+    float: left;
+}
+#cap-uno{
+    float: right;
+}
+#cap-dos{
+    float: left;
+}
+#cap-tres{
+    float: right;
+}
+#cap-cuatro{
+    float: left;
+}
+#Requisitos{
+    float: left;
+}
+#Critica{
+    float: left;
+}
+#Registrate{
+    float: left;
+}
+
+footer{
+    float: left;
+}
+
+#tabla{
+    text-align: center;
+    border: dotted;
+    background-color: grey;
+}
+#vacio{
+    background-color: black;
+    color: white;
+    
+}
+#recom{
+    background-color: black;
+    color: white;
+    
+}
+#mini{
+    background-color: black;
+    color: white;
+    
+}
+#high{
+    background-color: black;
+    color: white;
+    
+}
+#ultra{
+    background-color: black;
+    color: white;
+    
+}
+#cyber{
+    background-color: black;
+    color: white;
+    
+}
+#reso{
+    background-color: red;
+    color: black;
+    
+}
+#gfx{
+    background-color: red;
+    color: black;
+    
+}
+#cpu{
+    background-color: red;
+    color: black;
+    
+}
+#mem{
+    background-color: red;
+    color: black;
+    
+}
+#gpu{
+    background-color: red;
+    color: black;
+    
+}
+#stor{
+    background-color: red;
+    color: black;
+    
+}
+#imgc2{
+    float: right;
+}
+#imgc1{
+    float: left;
+}
+#nota{
+    border: dotted;
+    color: black;
+    background-color: cadetblue;
+    text-align: center;
+    max-width: 50px;
+}
+#borrar{
+    background-color: red;
+    color: black;
+    border: solid;
+}
+#enviar{
+    background-color: red;
+    color: black;
+    border: solid;
+}
+#nombre{
+    background-color: red;
+    color: white;
+
+}
+#apellidos{
+    background-color: red;
+    color: white;
+    
+}
+#email{
+    background-color: red;
+    color: white;
+    
+}
+#pais{
+    background-color: red;
+    color: white;
+    
+}

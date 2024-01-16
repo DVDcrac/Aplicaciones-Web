@@ -1,0 +1,38 @@
+.title{
+    text-shadow: 2px 1px 6px;
+    color: aliceblue;
+}
+#loco{
+    text-shadow: 2px 2px 2px saddlebrown, 2px 4px 2px green;
+    color: aliceblue;
+}
+#Go-to-google:hover{
+    text-shadow: 2px 2px;
+}
+.shady{
+    box-shadow: 4px 4px 4px greenyellow;
+    background-image: linear-gradient(to top, rgb(40, 65, 117), rgb(12, 251, 255))
+
+}
+.shady2{
+    box-shadow: -4px -4px 4px red;
+    background-image: radial-gradient( rgb(124, 124, 124), rgb(12, 255, 105))
+
+}
+.shady3{
+    box-shadow: 4px 0px 0px blue;
+    background-image: repeating-linear-gradient(to left, rgb(187, 0, 255) 10%, rgb(255, 0, 217) 20%, rgb(255, 0, 140) 30% )
+}
+body{
+    background: rgb(0,36,35);
+background: linear-gradient(90deg, rgba(0,36,35,1) 0%, rgba(9,72,121,1) 10%, rgba(0,255,211,1) 100%);
+    
+}
+#boton{
+    width: 200px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, rgba(9, 239, 255, 0), rgb(2, 225, 255))
+}
+#boton:hover{
+    box-shadow: 0px 1px 20px greenyellow; 
+}

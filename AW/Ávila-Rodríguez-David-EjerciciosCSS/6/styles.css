@@ -1,0 +1,28 @@
+div{
+    background-image: url(img/img1.png);
+    background-repeat: no-repeat;
+    transition: width 2s;
+}
+div:hover{
+    transition-property: all;
+   background-image: url(img/img2.png);
+   background-repeat: no-repeat;
+   transform: rotate(360deg) scaleX(1) scaleY(1);
+   
+}
+#img1{
+    float: right;
+   
+}
+#img1:hover{
+    transition-property: all;
+    transform: skewX(15deg) skewY(30deg);
+    
+}
+#img2{
+    float: right;
+}
+#img2:hover{
+    transition-property: all;
+    transform: translate(50px, 50px);
+}

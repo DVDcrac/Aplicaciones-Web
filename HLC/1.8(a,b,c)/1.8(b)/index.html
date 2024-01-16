@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var smi= parseInt("1000")
+       
+        var sueldo = prompt("Introduce tu sueldo:");
+       
+        var años = prompt("Introduce tus años de antigüedad:");
+        
+        var a1 = parseInt(sueldo*0.2);
+       
+        var a2=parseInt(a1)+parseInt(sueldo);
+        
+        var b1 = parseInt(sueldo*0.08);
+       
+        var b2=parseInt(b1)+parseInt(sueldo);
+       
+        var c1 = parseInt(sueldo*0.02);
+        
+        var c2=parseInt(c1)+parseInt(sueldo);
+       
+        document.write("<br>")
+        document.write("-Sueldo actual:"+ sueldo +"€" );
+        document.write("<br>")
+        document.write("-Años de antigüedad:"+ años);
+        document.write("<br>");
+        
+
+        if (sueldo < smi && años >= 10){ 
+            document.write("-Le corresponde un aumento del 20%.");
+            document.write("<br>");
+            document.write("-Nuevo sueldo:" + a2 +"€" );
+        }
+        else{
+            if(sueldo<smi && años<5){
+                document.write("-Le corresponde un aumento del 8%.");
+                document.write("<br>");
+                document.write("-Nuevo sueldo:" + b2 +"€" );
+            }
+            else{
+                if(sueldo<=smi+smi || años > 12 && años < 15){
+                    document.write("-Le corresponde un aumento del 2%.");
+                    document.write("<br>");
+                    document.write("-Nuevo sueldo:" + c2 +"€" );
+                }
+                else{
+                    document.write("-Su sueldo se queda igual.");
+                }
+            }
+            
+        }
+    </script>
+</body>
+</html>
