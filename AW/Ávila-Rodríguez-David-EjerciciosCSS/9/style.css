@@ -1,0 +1,38 @@
+@keyframes anim {
+    from {background-color: #54ff00;}
+    10% {background-color: #00ff61;}
+    20% {background-color: #00ffb2;}
+    30% {background-color: #00fff6;}
+    40% {background-color: #00d8ff;}
+    50% {background-color: #0099ff;}
+    60% {background-color: #5000ff;}
+    70% {background-color: #a500ff;}
+    80% {background-color: #ee00ff;}
+    90% {background-color: #ff00d0;}
+    to {background-color: #ff0061;}
+}
+.bienvenido:hover{
+    animation-name: anim;
+    animation-duration: 2s;
+}
+.bienvenido{
+    padding: 10px;
+}
+body{
+    background: rgb(196,245,236);
+    background: radial-gradient(circle, rgba(196,245,236,1) 15%, rgba(9,72,121,1) 100%);
+}
+.text1{
+    text-shadow: 1px 1px 10px#4000ff;
+    font-size: 20px;
+}
+img{
+    width: 250px;
+    transition: width 2s;
+}
+img:hover{
+    transition-property: all;
+    transform: rotate(360deg) scaleX(1) scaleY(1);
+}
+
+

@@ -1,0 +1,20 @@
+.uno{
+    font-size: 100px;
+}
+@keyframes dos {
+    from {background-color: #54ff00;}
+    10% {background-color: #00ff61;}
+    20% {background-color: #00ffb2;}
+    30% {background-color: #00fff6;}
+    40% {background-color: #00d8ff;}
+    50% {background-color: #0099ff;}
+    60% {background-color: #5000ff;}
+    70% {background-color: #a500ff;}
+    80% {background-color: #ee00ff;}
+    90% {background-color: #ff00d0;}
+    to {background-color: #ff0061;}
+}
+.uno:hover{
+    animation-name: dos;
+    animation-duration: 2s;
+}
