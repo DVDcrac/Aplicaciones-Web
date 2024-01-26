@@ -52,3 +52,27 @@ nav ul li a {
     color: #e8e6e6;
     text-decoration: none;
 }
+table{
+    font-size: 25px;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial;
+}
+#text {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

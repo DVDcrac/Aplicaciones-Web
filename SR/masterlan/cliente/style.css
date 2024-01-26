@@ -1,6 +1,7 @@
 body{
    background: rgb(241,181,207);
     background: radial-gradient(circle, rgba(241,181,207,1) 0%, rgba(168,204,247,1) 100%);
+    font-family: Arial;
 }
 #uno{
     font-size: 80px;
@@ -41,4 +42,8 @@ nav ul li a {
     padding: 10px;
     color: #e8e6e6;
     text-decoration: none;
+}
+p{
+    text-align: center;
+    font-size: 50px;
 }

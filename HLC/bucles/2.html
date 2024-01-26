@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let na = 0;
+        for (let nt = 1; nt <= 3; nt++)        
+           {
+            let a = prompt("Introduce la altura:");
+            let b = prompt("Introduce la base:");
+            let area  = (b*a)/2;
+            document.write("Base: "+ b +" ");
+            document.write("Altura: "+ a +" ");
+            document.write("Area: "+ area +" ");
+            document.write("<br>");
+            
+            if(area > 12){
+                na++
+            }
+            
+           }
+           document.write("Triángulos con area mayor a 12: " + na);
+    </script>
+</body>
+</html>
