@@ -1,0 +1,40 @@
+#container{
+    background-color: gainsboro;
+    width:  800px;
+    height: 500px;
+}
+#yellow{
+    background-color: yellow;
+    height: 29em;
+    width: 30%;
+    margin: 2%;
+    float: left;
+}
+#red1{
+    background-color: red;
+    height: 12em;
+    width: 17%;
+    margin: 2%;
+    float: right;
+}
+#red2{
+    background-color: red;
+    height: 12em;
+    width: 17%;
+    margin: 2%;
+    float: right;
+}
+#red3{
+    background-color: red;
+    height: 12em;
+    width: 17%;
+    margin: 2%;
+    float: right;
+}
+#blue{
+    background-color: blue;
+    height: 15em;
+    width: 60%;
+    margin: 2%;
+    float: right;
+}

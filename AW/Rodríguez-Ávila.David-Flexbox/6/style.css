@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: aliceblue;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    column-gap: 1%;
+}
+article{
+    background-color: rgba(255, 136, 9, 0.508);
+    padding: 1%;
+    
+    
+}
+
+footer{
+    display: flex;
+    background-color: blue;
+    color: aliceblue;
+    justify-content: center;
+}
+#tres{
+    display: flex;
+    flex-grow: 6;
+}
+button {
+   font-size: 25%;
+   line-height: 1.5;
+   width: 35%;
+    
+}
+header ,h1{
+    display: flex;
+   justify-content: flex-start; 
+
+}
+
+#contenedor {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}

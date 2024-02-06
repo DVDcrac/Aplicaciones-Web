@@ -1,0 +1,13 @@
+body{
+    background: rgb(21,0,36);
+background: linear-gradient(90deg, rgba(21,0,36,0.8004866180048662) 0%, rgba(107,9,121,1) 35%, rgba(242,0,255,1) 100%);
+}
+.columns{
+    column-count: 7;
+    
+}
+.threecolumns{
+    column-count: 3;
+    column-rule: dotted yellow;
+    column-gap: 2em;
+}

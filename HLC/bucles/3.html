@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <script>
+        var neg = 0;
+        var pos = 0;
+        var mul = 0;
+        var par = 0;
+        for (let f = 1; f <= 10; f++) {
+            let num = parseInt(prompt("Introduce un número entero:"));
+        
+            if (num < 0) {
+                neg = neg + 1;
+            }
+            else {
+                if (num > 0) {
+                    pos= pos + 1;
+                }
+            if (num % 15) {
+                        mul= mul + 1;
+                    }
+                    
+            if (num % 2) {
+                            par= par + 1;
+                        }
+                    
+                
+            }
+        }
+        document.write("Negativos:" + neg);
+        document.write("<br>");
+        document.write("Positivos:" + pos);
+        document.write("<br>");
+        document.write("Multiplos de 15:" + mul);
+        document.write("<br>");
+        document.write("Suma de numeros pares:" + par);
+    </script>
 </body>
+
 </html>
