@@ -1,0 +1,42 @@
+#tabla{
+    background-color: aqua;
+    display: grid;
+    grid-template-areas: 
+    "uno uno uno" 
+    "dos tres cuatro" 
+    "dos cinco seis";
+    background-color: #2196F3;
+    max-width: 400px;
+    padding: 10px;
+    text-align: center;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+#uno{
+    background-color: aliceblue;
+    
+    grid-area: uno;
+    
+}
+#dos{
+    background-color: aliceblue;
+    
+    grid-area: dos;
+}
+#tres{
+    background-color: aliceblue;
+    grid-area: tres;
+}
+#cuatro{
+    background-color: aliceblue;
+    grid-area: cuatro;
+}
+#cinco{
+    background-color: aliceblue;
+    grid-area: cinco;
+}
+#seis{
+    background-color: aliceblue;
+    grid-area: seis;
+}

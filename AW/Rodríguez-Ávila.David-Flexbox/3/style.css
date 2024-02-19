@@ -25,6 +25,7 @@ footer{
     justify-content: center;
 }
 #tres{
+    display: flex;
     flex-grow: 6;
 }
 #uno{

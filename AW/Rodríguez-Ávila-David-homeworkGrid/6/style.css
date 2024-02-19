@@ -1,0 +1,50 @@
+#tabla{
+    display: grid;
+    grid-template-areas: 
+    "uno dos tres tres" 
+    "uno cuatro cinco seis"
+    "siete cuatro ocho ocho";
+    justify-content: start;
+    
+    
+}
+img{
+    border-radius: 10px;
+}
+#uno{
+    
+    grid-area: uno;
+    
+}
+#dos{
+    
+    grid-area: dos;
+    
+}
+#tres{
+    
+    grid-area: tres;
+}
+#cuatro{
+    
+    grid-area: cuatro;
+}
+#cinco{
+    
+    grid-area: cinco;
+}
+#seis{
+    
+    grid-area: seis;
+    
+}
+#siete{
+    
+    grid-area: siete;
+    
+}
+#ocho{
+    
+    grid-area: ocho;
+    
+}

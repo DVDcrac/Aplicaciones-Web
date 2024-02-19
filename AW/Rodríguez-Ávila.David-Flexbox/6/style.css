@@ -1,6 +1,6 @@
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: blue;
     color: aliceblue;
 }
@@ -33,14 +33,15 @@ button {
    width: 35%;
     
 }
-header ,h1{
-    display: flex;
-   justify-content: flex-start; 
-
-}
-
 #contenedor {
    display: flex;
-   align-items: center;
    justify-content: flex-end;
+   align-items: center;
+   margin: 2%;
 }
+h1{
+    display: flexbox;
+    justify-content: flex-start; 
+    margin: 2%;
+}
+

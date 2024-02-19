@@ -1,0 +1,33 @@
+#tabla{
+    display: grid;
+    grid-template-areas: 
+    ". uno uno" 
+    "dos tres tres"
+    "cuatro cuatro cuatro";
+    background-color: #2196F3;
+    max-width: 400px;
+    padding: 10px;
+    text-align: center;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+#uno{
+    background-color: aliceblue;
+    
+    grid-area: uno;
+    
+}
+#dos{
+    background-color: aliceblue;
+    
+    grid-area: dos;
+}
+#tres{
+    background-color: aliceblue;
+    grid-area: tres;
+}
+#cuatro{
+    background-color: aliceblue;
+    grid-area: cuatro;
+}

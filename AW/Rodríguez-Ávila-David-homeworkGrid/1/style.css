@@ -1,0 +1,21 @@
+#tabla{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #2196F3;
+    padding: 10px;
+    text-align: center;
+    column-gap: 1px;
+    row-gap: 1px;
+    max-width: 400px;
+}
+
+#uno{
+    background-color: aliceblue;
+    grid-column: 1/4;
+    
+}
+#contenido{
+    background-color: aliceblue;
+    
+}
